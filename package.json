@@ -1,6 +1,6 @@
 {
   "name": "md-loader-webpack",
-  "version": "2.0.2",
+  "version": "2.0.1",
   "description": "markdown-loader for webpack",
   "main": "index.js",
   "scripts": {
@@ -12,13 +12,21 @@
     "type": "git",
     "url": "git+https://github.com/lwwywang/Webpack-loader-plugins.git"
   },
-  "keywords": [],
+  "keywords": ["markdown", "webpack", "loader"],
   "author": "Sherry",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lwwywang/Webpack-loader-plugins/issues"
   },
   "homepage": "https://github.com/lwwywang/Webpack-loader-plugins",
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "devDependencies": {
     "css-loader": "^7.1.2",
     "del": "^5.1.0",
