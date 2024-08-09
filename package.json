@@ -10,11 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/your-repo.git"
+    "url": "git+https://github.com/lwwywang/Webpack-loader-plugins"
   },
   "keywords": [],
   "author": "Sherry",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwwywang/Webpack-loader-plugins/issues"
+  },
+  "homepage": "https://github.com/lwwywang/Webpack-loader-plugins",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "del": "^5.1.0",
