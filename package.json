@@ -1,6 +1,6 @@
 {
-  "name": "@webpack/markdown-loader",
-  "version": "1.0.0",
+  "name": "md-loader-webpack",
+  "version": "2.0.0",
   "description": "markdown-loader for webpack",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lwwywang/Webpack-loader-plugins"
+    "url": "git+https://github.com/lwwywang/Webpack-loader-plugins.git"
   },
   "keywords": [],
   "author": "Sherry",
@@ -37,4 +37,3 @@
     "markdown-it": "^14.1.0"
   }
 }
-
