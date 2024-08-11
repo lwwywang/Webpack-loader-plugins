@@ -1,6 +1,8 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const FileListPlugin = require('./plugins/file-list-plugin.js')
+const CleanPlugin = require('./plugins/clean-plugin.js')
 
 
 module.exports = {
@@ -37,5 +39,7 @@ module.exports = {
 			filename: '[name].css',
 			chunkFilename: '[id].css',
 		  }),
+		new FileListPlugin(),
+		new CleanPlugin({exclude: 'a'}),
 	]
 }
